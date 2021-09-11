@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/tashfi/ProgramingAndDevelopment/Development/Web/Projects/CD_Gallery/venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "git.ignoreLimitWarning": true
+
+}
