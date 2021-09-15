@@ -12,7 +12,13 @@ def apiOverview(request):
         'User Login'                        : 'api/v1/accounts/login/',
         'User Logout'                       : 'api/v1/accounts/logout/',
         'User Details'                      : 'api/v1/accounts/user/',
-        'User Registration'                 : 'api/v1/accounts/registration/'
+        'User Registration'                 : 'api/v1/accounts/registration/',
+
+        'Customer List, Create'             : 'api/v1/customers/list_create/',
+        'Customer Update, Delete'           : 'api/v1/customers/update_delete/',
+
+        'Category List, Create'             : 'api/v1/Categories/list_create/',
+        'Category Update, Delete'           : 'api/v1/Categories/update_delete/',
 	}
 
     return Response(api_urls)
